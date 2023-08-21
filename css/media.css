@@ -312,6 +312,11 @@
 }
 
 @media (max-width: 1090px) {
+    .img_dog img:nth-child(2) {
+        position: absolute;
+        left: 395px;
+        top: 1040px;
+    }
     .header_ul li:nth-child(1) {
         display: none;
     }
@@ -557,7 +562,13 @@
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 996px) {
+    .text6 {
+        text-align: center;
+        background-image: url(../img/Line\ 1.png);
+        background-repeat: no-repeat;
+        background-position: none;
+    }
     .text6 {
         text-align: center;
         background-image: none;
@@ -1016,6 +1027,29 @@
 }
 
 @media (max-width: 835px) {
+    .art12 {
+        display: flex;
+        margin-top: 40px;
+        border-radius: 10px;
+        background-color: #384D70;
+        overflow: hidden;
+        height: 70px;
+        width: 769px;
+    }
+    .ing img {
+        position: relative;
+        left: 142px;
+        margin: 15px;
+    }
+    .art4 {
+        display: flex;
+        border-radius: 10px;
+        background-color: rgb(7, 16, 34);
+        overflow: hidden;
+        height: 326px;
+        width: 775px;
+        transition: all 0.4s ease-in-out 0s;
+    }
     .header_ul li {
         display: none;
     }
@@ -1464,6 +1498,11 @@
     .sec8{
         height: 1950px;
     }
+    .text1 p {
+        color: #71768E;
+        width: 380px;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -1751,7 +1790,16 @@
         margin-top: 370px;
     }
 }
-@media (max-width: 335px){
+@media (max-width: 336px){
+    .group {
+        margin-top: 15px;
+        display: flex;
+        line-height: 28px;
+        align-items: center;
+        position: relative;
+        max-width: 260px;
+        width: 330px;
+    }
     .text1 p {
         color: #71768E;
         width: 244px;
