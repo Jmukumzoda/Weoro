@@ -1074,7 +1074,9 @@ display: none;
     line-height: 40px;
     font-size: 23px;
 }
-
+.img_grafic{
+    display: none;
+}
 .img_team p {
     color: #71768E;
 }
