@@ -1157,6 +1157,10 @@ input:hover {
     display: none;
 }
 
+aside {
+    display: none;
+}
+
 .grid12_h2_p h3 {
     margin: 18px 42px;
     font-size: 20px;
@@ -1217,4 +1221,14 @@ footer {
     line-height: 100px;
     color: #71768E;
     font-size: 20px;
+}
+
+.exit-btn {
+    width: 50px;
+    margin-left: 130px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+ 
 }
